@@ -1,0 +1,43 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\contentsline {chapter}{\chapternumberline {1}INTRODUÇÃO}{1}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {2}TAREFA 1: METODOLOGIA DE DESENVOLVIMENTO}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Metodologia Tradicionais}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Métodos Ágeis}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Metodologia de Trabalho Sugerida}{4}{section.2.3}%
+\contentsline {chapter}{\chapternumberline {3}TAREFA 2: SISTEMAS DISTRIBUÍDOS}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Distribuição de Dados}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Características dos sistemas distribuídos}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Arquitetura Sugerida}{8}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {4}TAREFA 3: DESENVOLVIMENTO WEB}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}A Importância da \textit {WEB}}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Funcionamento do Acesso Web}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.3}HTML e CSS - Linguagens de Marcação}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}HTML5}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.5}CSS}{13}{section.4.5}%
+\contentsline {section}{\numberline {4.6}CSS3}{14}{section.4.6}%
+\contentsline {section}{\numberline {4.7}HTML5 e CSS3}{14}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Sugestão}{14}{section.4.8}%
+\contentsline {chapter}{\chapternumberline {5}TAREFA 4: DESENVOLVIMENTO MOBILE}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}O que é a Tecnologia Mobile}{16}{section.5.1}%
+\contentsline {section}{\numberline {5.2}A Importância do Desenvolvimento de Software Móvel}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Linguagens de Programação para Desenvolvimento Android}{16}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Como funciona o sistema Android}{17}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Desenvolvimento Nativo}{17}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Desenvolvimento Híbrido}{17}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Linguagens de Programação para Android}{18}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Java}{18}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}LUA (Corona SDK)}{18}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Kotlin}{19}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}C\#}{20}{subsection.5.7.4}%
+\contentsline {subsection}{\numberline {5.7.5}JavaScript + CSS + HTML (PhoneGap)}{20}{subsection.5.7.5}%
+\contentsline {section}{\numberline {5.8}Tendências no Desenvolvimento Móvel}{21}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Inteligência artificial e aprendizado da máquina}{21}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2}Integração com IoT e Dispositivos (\textit {wearables})}{21}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3}Application Performance Measurement (APM)}{21}{subsection.5.8.3}%
+\contentsline {subsection}{\numberline {5.8.4}Enterprise Mobile Management (EMM)}{22}{subsection.5.8.4}%
+\contentsline {subsection}{\numberline {5.8.5}Realidade Aumentada}{22}{subsection.5.8.5}%
+\contentsline {subsection}{\numberline {5.8.6}Gateway de Pagamentos}{22}{subsection.5.8.6}%
+\contentsline {chapter}{\chapternumberline {6}CONCLUSÃO}{23}{chapter.6}%
+\contentsline {chapter}{Refer\^encias}{24}{chapter*.16}%
+\vspace {\cftbeforepartskip }

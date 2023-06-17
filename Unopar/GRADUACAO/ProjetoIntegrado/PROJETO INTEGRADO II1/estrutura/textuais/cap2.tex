@@ -1,0 +1,61 @@
+% CAPITULO 2-------------------------------------------------------------------
+
+\chapter{PROCESSOS vs THREAD}
+\label{sec:thread}
+
+Para permitir que o computador faça mais de uma atividade ao mesmo tempo, tanto o processo quanto a \textit{thread} fornecem um ótimo serviço, mas há diferença entre eles na maneira como operam.
+
+\nocite{processo}
+
+\section{Thread}
+
+Uma \textit{thread} é uma linha de execução de código que executa em paralelo com outras
+linhas do mesmo processo, compartilhando seu espaço de memória.
+Na prática uma \textit{thread} é equivalente a um “mini-processo” dentro de um processo que permite várias ações sejam executadas em paralelo por um mesmo processo.
+
+Em um programa muitas vezes é necessário executar mais de uma atividade ao mesmo tempo ex.: aguardar a entrada de dados do usuário e reproduzir um som enquanto aguarda.
+
+Uma \textit{thread} é muito mais leve que um processo comum, o ganho de performance na criação e destruição de \textit{threads} se comparada a processos (10 a 100x). Quando uma aplicação tem atividade I/O \textit{bound} e CPU \textit{bound} as \textit{threads} podem acelerar a execução, pois não concorrerão por recurso.
+O uso de \textit{threads} pode também garantir um uso máximo dos vários processadores
+existentes em uma CPU.
+
+\section{Processo}
+
+Um processo, em geral, é uma série contínua de ações para alcançar um resultado específico. Mas, no mundo dos computadores, um processo é uma instância de um programa de computador em execução. Em outras palavras, é uma ideia de uma única ocorrência de um programa de computador em execução. Simplesmente os processos são binários em execução que contêm um ou mais threads.
+
+De acordo com o número de threads envolvidos em um processo, existem dois tipos de processos. Eles são processos single-thread e processos multi-thread. Como o próprio nome sugere, um processo de thread único é um processo que possui apenas um segmento. Portanto, este segmento é um processo e há apenas uma atividade acontecendo. Em um processo multi-thread, há mais de um thread e há mais de uma atividade em andamento.
+
+Dois ou mais processos podem se comunicar entre si usando a comunicação entre processos. Mas é bastante difícil e precisa de mais recursos. Ao fazer um novo processo, o programador precisa fazer duas coisas. Eles são a duplicação do processo pai e a alocação de memória e recursos para o novo processo. Então isso é muito caro.
+
+\section{Qual é a diferença entre Process e Thread?}
+
+\begin{itemize}
+    \item Os processos são difíceis de criar porque precisam de uma duplicação do processo pai e da alocação de memória, enquanto os \textit{threads} são fáceis de criar, pois não requerem um espaço de endereço separado.
+
+    \item \textit{Threads} são utilizadas para tarefas simples, quanto os processos são utilizado para tarefas pesadas, como a execução de um aplicativo.
+
+    \item Os processos não compartilham o mesmo espaço de endereço, mas os threads dentro do mesmo processo compartilham o mesmo espaço de endereço.
+
+    \item Os processos são independentes uns dos outros, mas os \textit{threads} são interdependentes, pois compartilham o mesmo espaço de endereço.
+
+    \item Um processo pode consistir em vários \textit{threads}.
+
+    \item Como os \textit{threads} compartilham o mesmo espaço de endereço, a memória virtualizada está associada apenas a processos, mas não a \textit{threads}. Mas um processador virtualizado distinto está associado a cada \textit{thread}.
+
+    \item Cada processo tem seu próprio código e dados, enquanto os \textit{threads} de processos compartilham o mesmo código e dados.
+
+    \item Cada processo começa com um \textit{thread} principal, mas pode criar \textit{threads} adicionais, se necessário.
+
+    \item A alternância de contexto entre processos é muito mais lenta do que a alternância de contexto entre \textit{threads} do mesmo processo.
+
+    \item \textit{Threads} podem ter acesso direto aos seus segmentos de dados, mas os processos têm sua própria cópia dos segmentos de dados.
+
+    \item Os processos têm \textit{overheads}, mas não threads.
+\end{itemize}
+
+\subsection{Processo vs. Thread}
+
+Processo e \textit{thread} são duas técnicas utilizadas por programadores para controlar o processador e a execução de instruções em um computador de maneira eficiente e eficaz. Um processo pode conter vários \textit{threads}. \textit{Threads} fornecem uma maneira eficiente de compartilhar memória, embora opere várias execuções do que processos. Portanto, os \textit{threads} são uma alternativa para vários processos. Com a tendência crescente de processadores multi-core, os \textit{threads} se tornarão a ferramenta mais importante no mundo dos programadores.
+
+
+\nocite{processo}

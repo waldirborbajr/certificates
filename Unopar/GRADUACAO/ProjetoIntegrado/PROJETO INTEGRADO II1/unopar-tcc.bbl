@@ -1,0 +1,60 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Braga acessado em: Agosto 2021]{usp}
+\abntrefinfo{Braga}{BRAGA}{acessado em: Agosto 2021}
+{BRAGA, P.~R. \textbf{{Qualidade de Software: Visão Geral}}. acessado em:
+  Agosto 2021.
+  \url{https://edisciplinas.usp.br/pluginfile.php/57546/mod_resource/content/1/Aula8-QualidadeSoftware.pdf}.}
+
+\bibitem[DEVMedia acessado em: Agosto 2021]{devmedia}
+\abntrefinfo{DEVMedia}{DEVMEDIA}{acessado em: Agosto 2021}
+{DEVMEDIA. \textbf{{Qualidade de Software - Engenharia de Software 29}}.
+  acessado em: Agosto 2021.
+  \url{https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209}.}
+
+\bibitem[IFRN acessado em: Agosto 2021]{processo}
+\abntrefinfo{IFRN}{IFRN}{acessado em: Agosto 2021}
+{IFRN. \textbf{{Sistemas Operacionais - Threads e Processos}}. acessado em:
+  Agosto 2021.
+  \url{https://docente.ifrn.edu.br/tadeuferreira/disciplinas/2016.1/sistemas-operacionais/Aula05.pdf}.}
+
+\bibitem[Rodrigues acessado em: Agosto 2021]{auditoria}
+\abntrefinfo{Rodrigues}{RODRIGUES}{acessado em: Agosto 2021}
+{RODRIGUES, R.~W. da S. \textbf{{Auditoria e Conformidade de Segurança da
+  Informação}}. acessado em: Agosto 2021.
+  \url{https://www.trf3.jus.br/documentos/rget/seguranca/CLRI/GSIC345_Auditoria_Conformidade_Seguranca_Informacao.pdf}.}
+
+\bibitem[Salgueiro acessado em: Agosto 2021]{cmmcmmi}
+\abntrefinfo{Salgueiro}{SALGUEIRO}{acessado em: Agosto 2021}
+{SALGUEIRO, L.~F. \textbf{{Modelos de Qualidade de Software}}. acessado em:
+  Agosto 2021.
+  \url{https://bsi.uniriotec.br/wp-content/uploads/sites/31/2020/05/200508SalgueiroMarcus.pdf}.}
+
+\bibitem[TI acessado em: Agosto 2021]{canaltiteste}
+\abntrefinfo{TI}{TI}{acessado em: Agosto 2021}
+{TI, C. \textbf{{Teste de Software – Teste caixa-branca e caixa-preta}}.
+  acessado em: Agosto 2021.
+  \url{https://www.canalti.com.br/teste-de-software/teste-de-software-teste-caixa-branca-e-caixa-preta/}.}
+
+\bibitem[TutorialCup acessado em: Agosto 2021]{branca}
+\abntrefinfo{TutorialCup}{TUTORIALCUP}{acessado em: Agosto 2021}
+{TUTORIALCUP. \textbf{{Teste de caixa branca}}. acessado em: Agosto 2021.
+  \url{https://www.tutorialcup.com/pt/ensaio/tipos-de-teste/white-box-testing.htm}.}
+
+\bibitem[UFPR acessado em: Agosto 2021]{testeufpr}
+\abntrefinfo{UFPR}{UFPR}{acessado em: Agosto 2021}
+{UFPR. \textbf{{Teste Estrutural e Funcinal}}. acessado em: Agosto 2021.
+  \url{https://www.inf.ufpr.br/lmperes/testeEstruturalFuncional.pdf}.}
+
+\bibitem[univasf acessado em: Agosto 2021]{univasf}
+\abntrefinfo{univasf}{UNIVASF}{acessado em: Agosto 2021}
+{UNIVASF. \textbf{{Qualidade de Software: Visão Geral}}. acessado em: Agosto
+  2021.
+  \url{http://www.univasf.edu.br/~ricardo.aramos/disciplinas/ESI2009_2/Aula05.pdf}.}
+
+\end{thebibliography}

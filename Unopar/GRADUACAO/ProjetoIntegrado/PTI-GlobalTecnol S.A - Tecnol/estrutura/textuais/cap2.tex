@@ -1,0 +1,101 @@
+% CAPITULO 2-------------------------------------------------------------------
+
+\chapter{TAREFA 2}
+\label{sec:thread}
+
+\section{Sistemas Operacionais}
+\nocite{so}
+
+O sistema operacional é o \textit{software} mais importante em seu computador. Ele executa seus programas, organiza arquivos no disco rígido e gerencia como o computador acessa as redes disponíveis. Além disso, ele controla todos os dispositivos conectados ao seu computador como teclado, \textit{mouse}, monitor, \textit{webcam} e impressora.
+
+Há muitos tipos de Sistemas Operacionais, cuja complexidade varia e depende de que tipo de funções é provido, e para que computador esteja sendo usado. Alguns sistemas são responsáveis pela gerência de muitos usuários, outros controlam dispositivos de hardware como bombas de petróleo.
+
+O sistema operacional funciona com a iniciação de processos que este irá precisar para funcionar corretamente. Esses processos poderão ser arquivos que necessitam de ser frequentemente atualizados, ou arquivos que processam dados úteis para o sistema. Poderemos ter acesso a vários processos do sistema operacional a partir do gerenciador de tarefas, onde se encontram todos os processos que estão em funcionamento desde a inicialização do sistema operacional até a sua utilização atual.
+
+O sistema operacional é uma coleção de programas que:
+
+\begin{itemize}
+\item Inicializa o hardware do computador
+\item Fornece rotinas básicas para controle de dispositivos
+\item Fornece gerência, escalonamento e interação de tarefas
+\item Mantém a integridade de sistema
+\end{itemize}
+
+Um Sistema Operacional muito simples para um sistema de controle de segurança poderia ser armazenado numa memória ROM (Só de Leitura - um chip que mantém instruções para um computador), e assumir o controle ao ser ligado o computador. Sua primeira tarefa seria reajustar (e provavelmente testar) os sensores de hardware e alarmes, e então ativar uma rotina monitorando ininterruptamente todos os sensores introduzidos. Se o estado de qualquer sensor de entrada for mudado, é ativada uma rotina de geração de alarme.
+
+Em um grande computador multiusuário, com muitos terminais, o Sistema Operacional é muito mais complexo. Tem que administrar e executar todos os pedidos de usuários e assegurar que eles não interferiram entre si. Tem que compartilhar todos os dispositivos que são seriais por natureza (dispositivos que só podem ser usados por um usuário de cada vez, como impressoras e discos) entre todos os usuários que pedem esse tipo de serviço. O SO poderia ser armazenado em disco, e partes dele serem carregadas na memória do computador (RAM) quando necessário. Utilitários são fornecidos para:
+
+\begin{itemize}
+\item Administração de Arquivos e Documentos criados por usuários
+\item Desenvolvimento de Programas
+\item Comunicação entre usuários e com outros computadores
+\item Gerenciamento de pedidos de usuários para programas, espaço de armazenamento e prioridade
+\end{itemize}
+
+Adicionalmente, o SO precisaria apresentar a cada usuário uma interface que aceita, interpreta, e então executa comandos ou programas do usuário. Essa interface é comumente chamada de \textit{SHELL} (=cápsula, manteremos o nome original em inglês) ou interpretador de linha de comando (CLI). Em alguns sistemas ela poderia ser uma simples linha de texto que usam palavras chaves (como MSDOS ou UNIX); em outros sistemas poderiam ser gráficas, usando janelas e um dispositivo apontador como um mouse (como Windows95 ou X - Windows).
+
+\section{As Várias Partes de um Sistema Operacional}
+
+Um sistema operacional de um computador que é usado por muitas pessoas ao mesmo tempo, é um sistema complexo. Contém milhões de linhas de instruções escritas por programadores. Para tornar os sistemas operacionais mais fáceis de serem escritos, eles são construídos como uma série de módulos, cada módulo sendo responsável por uma função. Os módulos típicos em um grande SO multiusuário geralmente são:
+
+\begin{itemize}
+\item Núcleo (Kernel em inglês - também conhecido como "executivo")
+\item Gerenciador de processo
+\item Escalonador (Scheduler, em inglês)
+\item Gerenciador de arquivo
+\end{itemize}
+
+\section{Quais os tipos de sistema operacional?}
+
+Há diversos levantamentos a respeito de quais são os sistemas operacionais mais usados. As metodologias variam, bem como o tipo de dispositivo considerado. Sendo assim, alguns dados são consensuais e outros mais discutíveis.
+
+Podemos avaliar os dados segundo três diferentes fontes e com três diferentes resultados, nos sites Statista, Net Marketshare e Statcounter.
+
+Independente de critérios e metodologias para obtenção de dados de market share, é razoavelmente esperado que a popularidade seja um bom reflexo da utilização e assim, independente de qual é líder, os mais usados são:
+
+\begin{itemize}
+\item Windows
+\item Android
+\item Linux
+\item MacOs
+\item iOS
+\item Chrome Os
+\end{itemize}
+
+\subsection{Sistema Operacional Windows}
+
+Lançado em 1993 para permitir que os usuários pudessem contar com uma interface gráfica para operar o PC, o Windows, também de domínio da Microsoft, evoluiu muito nestes anos. Foram inúmeras versões criadas e vendidas, tendo a verão XP que permaneceu por muitos anos e que ainda está instalada em muitos computadores.
+
+Em sua versão atual, Windows 10, possui relativos melhoramentos e mudanças de estilo, ainda mais no que tange ao seu layout, que foi totalmente reformulado em comparação com suas versões anteriores. As máquinas que rodam Windows têm a vantagem de serem compatíveis com a grande maioria dos programas comerciais e jogos, mas também possuem mais riscos de segurança, motivo pelo qual devem estar sempre sob a proteção de programas antivírus.
+
+Fácil aprendizagem de uso, pois possui uma interface simples; permite a atualização automática sempre que algo tenha sido alterado na versão atual do sistema operacional, isto é, quando a Microsoft detecta um problema no programa, seus engenheiros preparam uma correção deste e disponibiliza esta correção;
+
+Possui uma infinidade de programas disponíveis para sua plataforma.
+Painel de controle simples, com recursos visíveis e práticos.
+
+\subsection{Sistema Operacional Linux}
+
+Linux é o termo utilizado para os sistemas operacionais que utilizam o núcleo Linux. Desenvolvido pelo programador finlandês Linus Torvalds, que se inspirou no antigo sistema Minix. Criado por entusiastas e agora com colaboração de grandes empresas como IBM, Google, Oracle, entre outros, este sistema operacional é conhecido por ser robusto e estável, caindo no gosto de boa parte das pessoas, incluindo empresa.
+
+As distribuições do Linux começaram a receber uma popularidade limitada desde a segunda metade dos anos 90, como uma alternativa livre para os sistemas operacionais Microsoft Windows e Mac OS, principalmente por parte de pessoas acostumadas com o Unix na escola e no trabalho. O sistema tornou-se popular no mercado de Desktops e servidores, principalmente para a Web e servidores de bancos de dados.
+
+Quando desenvolveu o sistema, não tinha intenção de comercializá-lo, e sim criá-lo para seu uso pessoal, para atender suas necessidades. Posteriormente ele coordenou os esforços coletivos de um grupo para a melhoria do sistema que criou. Atualmente, milhares de pessoas contribuem gratuitamente com o desenvolvimento do Linux, simplesmente pelo prazer de fazer um sistema operacional melhor.
+
+Qualquer instalação ou alteração do sistema no Linux requer a autorização do "usuário root", uma espécie de usuários especial do sistema; isto dificulta que um vírus ou programa malicioso seja instalado em sua máquina, a não ser que seja autorizado com nome de usuário e senha;
+
+Outra grande vantagem é o custo, pois é um software livre, ou seja, sua utilização não tem custos financeiros e você não paga nada para usá-lo;
+Devido a sua estabilidade e robustez, o Linux dá maior segurança às redes, pois possui compatibilidade com padrões estabelecidos há mais de duas décadas;
+
+Possui diversas opções de interfaces gráficas, com centenas de aplicativos disponíveis para sua plataforma.
+
+\subsection{Sistema Operacional OS X}
+
+O Macintosh Operating System (Mac OS) é o sistema operacional padrão para os computadores Macintosh produzidos pela Apple. Com sua primeira versão lançada em 1984, o sistema Mac OS hoje está na sua décima versão, e com o lançamento do Mac OS X, a última lançada pela empresa, tornou-se um marco ao ser remodelado como um todo, inclusive o núcleo que passou a ser baseado no do Unix BSD,  que consiste em um sistema operativo e multitarefa.
+
+Foi o primeiro sistema gráfico utilizado amplamente em computadores para representar os itens com ícones, como programas, pastas e documentos. Também foi pioneiro na disseminação do conceito de Desktop, com uma Área de Trabalho com ícones de documentos, pastas e uma lixeira, em analogia ao ambiente de escritório.
+
+Design bastante otimizado, no qual os usuários podem achar qualquer coisa em sua máquina com o aplicativo Finder;
+Custo de manutenção baixo ao longo do tempo;
+
+Os sistemas Mac têm menos problemas com vírus e spyware;
+Proporciona total liberdade de personalização do ambiente operacional, No Finder, você pode determinar um estilo de visualização (ícones, botões ou lista) para cada uma das janelas, ou um estilo geral para todas.

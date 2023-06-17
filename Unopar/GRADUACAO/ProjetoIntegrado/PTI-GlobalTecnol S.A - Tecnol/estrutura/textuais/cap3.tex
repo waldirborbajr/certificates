@@ -1,0 +1,112 @@
+% CAPITULO 3-------------------------------------------------------------------
+
+\chapter{TAREAFA 3}
+\label{sec:tarefa3}
+
+\section{Teste de Software}
+
+Teste de software é o processo de execução de um produto para determinar se ele atingiu suas especificações e funcionou corretamente dentro do ambiente para o qual foi projetado.
+O seu objetivo é buscar falhas em um produto, para que as causas dessas falhas sejam identificadas e possam ser corrigidas pela equipe de desenvolvimento antes da entrega final.
+
+\subsection{Teste caixa-branca (ou Teste Estrutural)}
+
+Teste de caixa branca é a técnica de teste que testa a estrutura interna e a implementação do produto, tornando-as visíveis para o testador. Aqui, a estrutura interna implica design, código, fluxo de dados e bancos de dados. O objetivo do teste de caixa branca é verificar o fluxo de trabalho interno do produto. A eficácia dos testes é medida por meio da cobertura de código. Para definir, a cobertura de código é a porcentagem de linhas de código exercidas por meio dos testes do total de linhas de código. Os outros nomes comuns para o teste de caixa branca são caixa transparente, caixa de vidro, caixa transparente ou teste estrutural.
+
+A realização de testes de caixa branca requer programação, banco de dados e conhecimento de design do produto. Além disso, os testadores também exigem o conhecimento de ferramentas como ferramentas de cobertura e depuradores para testes de caixa branca.
+
+O exemplo típico de teste de caixa branca é o teste de componentes do produto. Por definição, Teste de componentes significa testar as unidades de componentes individuais do produto, que podem ser um único programa ou grupo de programas formando um módulo. Assim, esses testes se concentram na avaliação daquele módulo específico. Pode-se escrever testes \textit{JUnit} ou \textit{Cucumber} para este tipo de teste de componentes. Normalmente, esses testes invocam métodos ou funções que fornecem os dados de entrada e avaliam sua saída comparando-os com os resultados esperados.
+
+\nocite{branca}
+\nocite{testeufpr}
+
+\subsection{Teste caixa-preta (ou Teste Funcional)}
+
+Técnica de teste em que o componente de software a ser testado é abordado como se fosse uma caixa-preta, ou seja, não se considera o comportamento interno do mesmo.
+Dados de entrada são fornecidos, o teste é executado e o resultado obtido é comparado a um resultado esperado previamente conhecido.
+Haverá sucesso no teste se o resultado obtido for igual ao resultado esperado.
+O componente de software a ser testado pode ser um método, uma função interna, um programa, um componente, um conjunto de programas e/ou componentes ou mesmo uma funcionalidade.
+
+\nocite{canaltiteste}
+
+\subsection{Teste caixa-cinza}
+
+O teste de caixa cinza é um tipo de teste profissional frequentemente usado para software de computador, que combina certos aspectos do teste de caixa preta e teste de caixa branca. A idéia geral é combinar esses dois outros tipos para utilizar os pontos fortes de cada um, minimizando suas limitações ou fraquezas. O teste da caixa cinza consiste basicamente em testes profissionais, nos quais os testadores compreendem algumas das maneiras pelas quais o software funciona, mas eles não entendem tudo sobre ele.
+
+Ao desenvolver e testar software de computador, existem dois modelos comuns de teste frequentemente utilizados. São testes de caixa preta e de caixa branca, e o teste de caixa cinza é basicamente uma combinação de ambos. O teste da caixa preta consiste em testes nos quais os testadores não entendem ou têm acesso ao código que executa o software. Por exemplo, alguém pode utilizar o teste de caixa preta para permitir que uma empresa externa desenvolva software para executar com um sistema operacional (SO) sem fornecer à empresa o código fonte do SO.
+
+Esse tipo de teste é frequentemente usado por muitas empresas de \textit{software} e pode ser usado para testes internos e externos. Uma das maiores fraquezas desse tipo de teste, no entanto, é que o conhecimento limitado dos testadores pode potencialmente dificultar seus testes. O teste de caixa cinza procura aliviar alguns desses problemas combinando esse tipo de teste com certos elementos do teste de caixa branca.
+
+O teste de caixa branca consiste em testes de software realizados por pessoas que compreendem completamente o software que está sendo testado e têm acesso ao código-fonte do software. Isso geralmente é feito internamente em um desenvolvedor de software para garantir que o programa funcione corretamente e para permitir que os testadores interajam diretamente com o código por trás do programa. Porém, existem problemas de segurança em potencial com esse tipo de teste e, portanto, o teste da caixa cinza é frequentemente usado para combinar os dois tipos de maneira produtiva e segura.
+
+No teste da caixa cinza, os testadores compreendem certos aspectos do software que está sendo usado e podem ver algumas partes do código-fonte, mas não todo. Isso permite que os testadores interajam e compreendam mais completamente o programa que estão testando do que o teste de caixa preta permite, mas sem os problemas completos de acesso e segurança que podem surgir dos testes de caixa branca. Alguém que esteja realizando testes de caixa cinza no software de um novo sistema operacional, por exemplo, poderá ver o código de aspectos do sistema operacional relevantes para o teste do programa, mas não todo o código-fonte.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{dados/figuras/grey}
+    \caption{Teste Caixa Cinza}
+    \label{fig:teste}
+\end{figure}
+
+\subsection{PenTeste ou Teste de Penetração}
+
+A crescente incidência de ataques virtuais assombra empresas e pessoas pelo mundo todo. Em um levantamento feito pela (ISC)², foi concluído que 44\% dos profissionais de TI apontam ransomware como o maior medo em relação à segurança corporativa em 2018.
+
+Como prevenção, certas medidas devem ser tomadas. A grande dúvida de analistas e gestores de tecnologia, no entanto, é: onde estão as fragilidades e vulnerabilidades? Ao ter esta informação, certamente o processo de aprimoramento das defesas é mais efetivo e certeiro.
+
+O Pentest é uma ótima opção para alcançar esse objetivo e é exatamente sobre ele que iremos conversar nesse blog post. Caso tenha interesse, é só continuar a leitura para compreender seu conceito, seus tipos e benefícios.
+
+\subsection{O que é o Pentest?}
+
+Pentest é a abreviação de \textit{Penetration Test} (Teste de Penetração, em tradução literal). É também conhecido como Teste de Intrusão, pois faz a detecção minuciosa com técnicas utilizadas por hackers éticos – especialistas em segurança da informação contratados por corporações para realizar tais testes, sem exercer atividades que prejudiquem a empresa ou tenham efeito criminoso.
+
+O teste de intrusão visa encontrar potenciais vulnerabilidades em um sistema, servidor ou, de forma geral, em uma estrutura de rede. Mas, mais do que isso, o \textit{Pentest} usa ferramentas específicas para realizar a intrusão que mostram quais informações ou dados corporativos podem ser roubados por meio da ação.
+
+Dessa forma, analistas de tecnologia terão a possibilidade de conhecer mais a fundo suas fraquezas e onde precisam melhorar. Os esforços e investimentos em Segurança da Informação passarão a ser focados nas debilidades da corporação, blindando a estrutura contra qualquer gargalo de segurança em potencial.
+
+\subsection{Pentests de Caixa Branca, Preta e Cinza}
+
+Existem algumas maneiras de realizar testes de intrusão, sendo que cada uma delas terá uma eficiência diferenciada. Entre elas, podemos destacar a White Box, a Black Box e a Grey Box.
+
+\textbf{White Box}
+
+O teste White Box, ou de “Caixa Branca”, é o Pentest mais completo. Isso porque parte por uma análise integral, que avalia toda a infraestrutura de rede. Isso é possível pois, ao iniciar o Pentest, o hacker ético (ou pentester, nome dado aos profissionais que atuam com esses testes) já possui conhecimento de todas informações essenciais da empresa, como topografia, senhas, IPs, logins e todos os outros dados que dizem respeito à rede, servidores, estrutura, potenciais medidas de segurança, firewalls etc.
+
+Com essas informações preliminares, o teste poderá direcionar certeiramente seu ataque e descobrir o que precisa ser aprimorado e reorientado. Por ser um volume alto de informações preliminares, geralmente esse tipo de Pentest é realizado por membros da própria equipe de TI da empresa.
+
+\textbf{Black Box}
+
+O teste Black Box, ou “Caixa Preta”, é quase como um teste às cegas, pois segue a premissa de não possuir grande quantidade de informação disponível sobre a corporação. Embora seja direcionado, pois atingirá a empresa contratante e descobrirá as vulnerabilidades dela, o Pentest de Caixa Preta é o mais próximo de seguir as características de um ataque externo.
+
+Dada essas características, sem grande mapeamento de informações, ele atuará de forma extremamente similar à de cibercriminosos – o que é uma experiência e tanto, caso não parta de forma maliciosa e sirva apenas como um método de reconhecer fragilidades na estrutura de rede.
+
+\textbf{Grey Box}
+
+Definido como uma mistura dos dois tipos anteriores, o Grey Box – ou “Caixa Cinza” – já possui certas informações específicas para realizar o teste de intrusão. No entanto, essa quantidade de informações é baixa e não se compara a quantidade de dados disponibilizados em um Pentest de Caixa Branca.
+
+Dada essa forma, o teste de Caixa Cinza investirá tempo e recursos para identificar tais vulnerabilidades e ameaças, se baseando na quantidade de informações específicas que tem. É o tipo de Pentest mais recomendado, caso exista a necessidade de contratação de algum desses serviços.
+
+\subsection{Os tipos de Pentest}
+
+Uma vez sabendo as maneiras que os testes de intrusão podem ser realizados, além da quantidade de informação que cada um deles requer para atingir determinada eficiência, faremos uma rápida abordagem nos tipos de Pentest disponíveis.
+
+\textbf{Teste em Serviços de Rede}: são realizadas análises na infraestrutura de rede da corporação, em procura de fragilidades que podem ser solidificadas. Neste quesito, é avaliado a configuração do firewall, testes de filtragem stateful etc.
+
+\textbf{Teste em Aplicação Web}: é um mergulho profundo no teste de intrusão, pois toda a análise é extremamente detalhada e vulnerabilidades são mais facilmente descobertas por basear-se na busca em aplicações web.
+
+\textbf{Teste de Client Side}: neste tipo de teste, é possível explorar softwares, programas de criação de conteúdo e Web browsers (como Chrome, Firefox, Explorer etc) em computadores dos usuários.
+Teste em Rede Sem Fio: examina todas as redes sem fio utilizadas em uma corporação, assim como o próprio nome afirma. São feitos testes em protocolos de rede sem fio, pontos de acessos e credenciais administrativas.
+
+\textbf{Teste de Engenharia Social}: informações e dados confidenciais são passíveis de roubo por meio de manipulação psicológica, uma tentativa de induzir o colaborador a repassar itens que devem ser sigilosos.
+
+\subsection{Benefícios do Teste de Intrusão}
+
+Embora seja um teste ainda visto com maus olhares por muitas pessoas, em especial por utilizar o hack como forma de angariar os benefícios propostos, a prática do Pentest apresenta inúmeros benefícios, sendo os principais:
+
+Auxiliar empresas a testarem a capacidade de sua cibersegurança;
+Descobrir fragilidades no sistema de segurança antes que um cibercriminoso o faça;
+
+Permitir que empresas adotem novas posturas em relação à Segurança da Informação, assim como apresentar justificativa para investimentos na área;
+
+Zelar pela reputação da sua empresa, uma vez que um teste de intrusão mostra o comprometimento em assegurar a continuidade do negócio e manter uma relação efetiva com a segurança corporativa.
+
+\nocite{pentest}

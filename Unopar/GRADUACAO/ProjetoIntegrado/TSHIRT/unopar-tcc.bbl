@@ -1,0 +1,41 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[GeekHunter acessado em: Março 2021]{geek}
+\abntrefinfo{GeekHunter}{GEEKHUNTER}{acessado em: Março 2021}
+{GEEKHUNTER. \textbf{{Android Melhores Linguages de Programação}}. acessado
+  em: Março 2021.
+  \url{https://blog.geekhunter.com.br/linguagens-de-programacao-para-android/}.}
+
+\bibitem[IlustraDev acessado em: Março 2021]{css3}
+\abntrefinfo{IlustraDev}{ILUSTRADEV}{acessado em: Março 2021}
+{ILUSTRADEV. \textbf{{O que é CSS3?}} acessado em: Março 2021.
+  \url{https://ilustradev.com.br/o-que-e-css3-como-funciona-estilizacao-com-css/}.}
+
+\bibitem[Paulo acessado em: Março 2021]{queconceito}
+\abntrefinfo{Paulo}{PAULO}{acessado em: Março 2021}
+{PAULO, E. Q.~S. \textbf{{Metodologias de Desenvolvimento}}. acessado em:
+  Março 2021. \url{https://queconceito.com.br/web}.}
+
+\bibitem[Ramos acessado em: Março 2021]{devweb}
+\abntrefinfo{Ramos}{RAMOS}{acessado em: Março 2021}
+{RAMOS, A. D.~S. \textbf{{A Importância e a Evolução no Desenvolvimento
+  Web}}. acessado em: Março 2021.
+  \url{https://www.scribd.com/document/215199079/A-IMPORTANCIA-E-EVOLUCAO-DO-DESENVOLVIMENTO-WEB}.}
+
+\bibitem[Significados acessado em: Março 2021]{Startup}
+\abntrefinfo{Significados}{SIGNIFICADOS}{acessado em: Março 2021}
+{SIGNIFICADOS. \textbf{{Significado de Startup}}. acessado em: Março 2021.
+  \url{https://www.significados.com.br/startup/}.}
+
+\bibitem[Softerize acessado em: Março 2021]{metodologia}
+\abntrefinfo{Softerize}{SOFTERIZE}{acessado em: Março 2021}
+{SOFTERIZE. \textbf{{Metodologias de Desenvolvimento}}. acessado em: Março
+  2021.
+  \url{https://www.softerize.com.br/blog/metodologias-de-desenvolvimento/}.}
+
+\end{thebibliography}
